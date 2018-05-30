@@ -1,14 +1,1 @@
-button {
-  background-color: dodgerblue;
-  color: white;
-  border: none;
-  outline: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-
-  &:hover {
-    background-color: cadetblue;
-  }
-}
+@import "../components/PluxApp/PluxApp.scss";

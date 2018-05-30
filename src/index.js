@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import AddButton from "./components/AddButton";
+import PluxApp from "./components/PluxApp/PluxApp";
 import "./styles/styles.scss";
 
 const app = document.getElementById("app");
 
-ReactDOM.render(<AddButton />, app);
+ReactDOM.render(<PluxApp />, app);
