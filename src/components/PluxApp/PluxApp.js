@@ -4,7 +4,7 @@ class PluxApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      emailVisible: false
+      emailVisible: localStorage.getItem("emailVisible") || false
     };
     this.newRandomGreeting = this.newRandomGreeting.bind(this);
   }
@@ -13,6 +13,7 @@ class PluxApp extends React.Component {
     this.setState({
       emailVisible: true
     });
+    localStorage.setItem("emailVisible", true);
     const greeting = document.getElementById("greeting");
     greeting.innerHTML = this.randomGreeting();
   }
