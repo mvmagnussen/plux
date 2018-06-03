@@ -67,7 +67,7 @@ class PluxApp extends React.Component {
       "listig",
       "lindrende",
       "livsviktig",
-      "lokkende",
+      "lur",
       "lukrativ",
       "lærerik"
     ];
