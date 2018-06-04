@@ -82,7 +82,7 @@ class PluxApp extends React.Component {
       "lidenskapelig",
       "likandes",
       "lettbeint",
-      "litt",
+      "lyrisk",
       "lovlig"
     ];
     const randomP = pAdjectives[Math.floor(Math.random() * pAdjectives.length)];
