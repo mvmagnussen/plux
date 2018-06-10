@@ -50,7 +50,8 @@ class PluxApp extends React.Component {
       "påviselig",
       "påpasselig",
       "passe",
-      "provisorisk"
+      "provisorisk",
+      "problemfri"
     ];
     const lAdjectives = [
       "liten",
@@ -83,7 +84,8 @@ class PluxApp extends React.Component {
       "likandes",
       "lettbeint",
       "lyrisk",
-      "lovlig"
+      "lovlig",
+      "lagelig"
     ];
     const randomP = pAdjectives[Math.floor(Math.random() * pAdjectives.length)];
     const randomL = lAdjectives[Math.floor(Math.random() * lAdjectives.length)];
