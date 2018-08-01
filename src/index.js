@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import PluxApp from "./components/PluxApp/PluxApp";
+import WeddingApp from "./components/WeddingApp/WeddingApp";
 import "./styles/styles.scss";
 
 const app = document.getElementById("app");
 
-ReactDOM.render(<PluxApp />, app);
+ReactDOM.render(<WeddingApp />, app);
